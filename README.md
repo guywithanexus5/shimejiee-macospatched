@@ -1,52 +1,31 @@
 
-ShimejiEE Cross Platform
-========================
-
-https://github.com/LavenderSnek/ShimejiEE-cross-platform
-
-The releases aren't updated frequently, so build it from source for the latest release.
-
 This project is a fork of [Kilkakon's shimeji version](http://kilkakon.com/shimeji) and incorporates the work from [nonowarn's shimeji4mac](https://github.com/nonowarn/shimeji4mac)
 
 Installation
 -------
 
 - macOS:
-  - Download the `mac-jre` version
-  - Click the file named `ShimejiEE-launcher`. 
+  - Download as raw code
+  - Click the file named `ShimejiEE.jar`. 
   - If the OS doesn't let you open it because it's from an unidentified developer: 
     - Go to System preferences → Security & privacy → General, and make sure `App Store and Identified developers` is selected in the "Allow apps downloaded from:" section
-    - Restart you computer, just to be safe
     - Now right-click the launcher and click open. Ignore the warnings. 
-  - If it still doesn't work, try re-downloading it directly from the GitHub releases page and make sure to unzip with Archiver.app
 
-- Linux:
-  - First consider trying out [linux-shimeji](https://github.com/asdfman/linux-shimeji), it has x11 support
-  - Download the `no-jre` version. 
-  - Still a WIP with lots of issues, but you can use java 17 to launch `ShimejiEE.jar`. 
-  - Install java from a different vendor if `libawt_xawt.so` is missing. 
-  - All program files are lowercase by default but Image-sets might break due to case sensitivity.
 
-- Windows:
-  - Download the `no-jre` version. 
-  - Untested but you can try it out; Just make sure to use java 17.
 
 
 Credits
 -------
 
 - Kilkakon
-  - Current maintainer. Added sounds, affordances, and japanese conf compatibility.
+  - Wrote the ShimejiEE thingy, duh
   - [Homepage](http://kilkakon.com/shimeji)
-  - [Shimeji discord](https://discord.gg/dcJGAn3)
+
 
 - nonowarn
   - Wrote the initial swing + jna mac implementation
   - [GitHub page](https://github.com/nonowarn/shimeji4mac)
 
-- TigerHix
-  - Added 64 bit support for windows
-  - [GitHub page](https://github.com/TigerHix/shimeji-universal)
 
 - The shimeji-ee Group
   - Added i18n
