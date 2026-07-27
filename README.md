@@ -5,7 +5,7 @@ Installation
 -------
 
 - macOS:
-  - Download as raw code
+  - Go to code dropdown and download as ZIP 
   - Click the file named `ShimejiEE.jar`. 
   - If the OS doesn't let you open it because it's from an unidentified developer: 
     - Go to System preferences → Security & privacy → General, and make sure `App Store and Identified developers` is selected in the "Allow apps downloaded from:" section
