@@ -9,4 +9,4 @@ Yuki Yamada is the original creator of Shimeji, kudos to him! (I do not go on AO
 
 I patched an issue with the JAR file that caused the Shimeji selector to break due to an image rendering issue, and updated image rendering handling to prevent runtime exceptions caused by incompatible BufferedImage types.
 
-I included stock Shimeji and Polar Summit's Murder Drones Shimeji. (@PolarSummit on Twitter)
+I included stock Shimeji and Polar Summit's Murder Drones Shimeji. (credit @PolarSummit on Twitter for those shimejis.)
